@@ -39,7 +39,7 @@ Tiga model klasifikasi dilatih dan dievaluasi pada data yang telah di-*vectorize
 
 #### **Model Terbaik**
 
-* **Model Terbaik:** TF-IDF **.
+* **Model Terbaik:** ** TF-IDF **.
 * **Performa Model Terbaik:**
 | Kelas | Precision | Recall | F1-Score | Support |
 | :---: | :---: | :---: | :---: | :---: |
