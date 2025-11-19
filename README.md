@@ -33,15 +33,23 @@ Tiga model klasifikasi dilatih dan dievaluasi pada data yang telah di-*vectorize
 
 | Skema | Algoritma | Vectorizer | Akurasi Test Set |
 | :---: | :--- | :--- | :---: |
-| 1 | **Logistic Regression** | TF-IDF | [Isi Akurasi LogReg, misal: **87.76%**] |
-| 2 | **Support Vector Machine (SVM)** | TF-IDF | [Isi Akurasi SVM, misal: **88.43%**] |
-| 3 | **Naive Bayes (NB)** | TF-IDF | [Isi Akurasi Naive Bayes, misal: **85.35%**] |
+| 1 | **Logistic Regression** | TF-IDF | **87.76%** |
+| 2 | **Support Vector Machine (SVM)** | TF-IDF |**88.43%** |
+| 3 | **Naive Bayes (NB)** | TF-IDF | **85.35%** |
 
 #### **Model Terbaik**
 
-* **Model Terbaik:** [Sebutkan Model dengan Akurasi Tertinggi, misal: **Support Vector Machine (SVM)**].
+* **Model Terbaik:** TF-IDF **].
 * **Performa Model Terbaik:**
-    * **Accuracy:** [Akurasi Terbaik]%
-    * **Weighted Avg F1-Score:** [F1-Score Terbaik]
-    * [Tambahkan detail penting dari *Classification Report* di sini]
+* ***Hasil Evaluasi Skema 1 (Logistic Regression):***
+              precision    recall  f1-score   support
+
+     negatif       0.86      0.96      0.90       998
+     positif       0.92      0.76      0.83       661
+
+    accuracy                           0.88      1659
+   macro avg       0.89      0.86      0.87      1659
+weighted avg       0.88      0.88      0.88      1659
+
+Akurasi Test: **87.76%**
 
