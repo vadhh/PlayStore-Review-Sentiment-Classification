@@ -39,16 +39,15 @@ Tiga model klasifikasi dilatih dan dievaluasi pada data yang telah di-*vectorize
 
 #### **Model Terbaik**
 
-* **Model Terbaik:** TF-IDF **].
+* **Model Terbaik:** TF-IDF **.
 * **Performa Model Terbaik:**
-* ***Hasil Evaluasi Skema 1 (Logistic Regression):***
-|          |precision   |recall   |f1-score   |support
-|negatif   |0.86      |0.96     |0.90       |998
-|positif   |0.92      |0.76     |0.83       |661
+| Kelas | Precision | Recall | F1-Score | Support |
+| :---: | :---: | :---: | :---: | :---: |
+| **Negatif** | 0.86 | 0.96 | 0.90 | 998 |
+| **Positif** | 0.92 | 0.76 | 0.83 | 661 |
+| **Accuracy** | | | **0.88** | 1659 |
+| **Macro Avg** | 0.89 | 0.86 | 0.87 | 1659 |
+| **Weighted Avg** | 0.88 | 0.88 | 0.88 | 1659 |
 
-|    accuracy       |          |          |0.88      |1659|
-|   macro avg       |0.89      |0.86      |0.87      |1659|
-|weighted avg       |0.88      |0.88      |0.88      |1659|
-
-Akurasi Test: **87.76%**
+**Akurasi Test Set (Skema 1): 87.76%**
 
